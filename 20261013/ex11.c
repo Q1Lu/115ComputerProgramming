@@ -2,16 +2,16 @@
 int main(void){
     int age = 0;
 
-    printf("½Ð¿é¤J¦~ÄÖ: \n");
+    printf("è«‹è¼¸å…¥å¹´é½¡: \n");
     scanf("%d", &age);
     if (age <= 6) {
-        printf("§K¶O\n");
+        printf("å…è²»\n");
     }else if (age >= 7 && age < 12) {
-        printf("¨àµ£²¼\n");
+        printf("å…’ç«¥ç¥¨\n");
     }else if (age >= 12 && age < 64) {
-        printf("¥þ²¼\n");       
+        printf("å…¨ç¥¨\n");       
     }else{
-        printf("·q¦Ñ²¼\n");
+        printf("æ•¬è€ç¥¨\n");
     }
     return 0;
 }

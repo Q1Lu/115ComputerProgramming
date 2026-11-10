@@ -3,17 +3,17 @@
 int main() {
     int code = 0;
 
-    printf("½Ğ¿é¤J±K½X (¿é¤J-1°h¥X):");
+    printf("è«‹è¼¸å…¥å¯†ç¢¼ (è¼¸å…¥-1é€€å‡º):");
     scanf("%d", &code);
     while (code != -1) {
         if (code == 1234) {
-            printf("±K½X¥¿½T!\n");
+            printf("å¯†ç¢¼æ­£ç¢º!\n");
             break;
         } else {
-            printf("±K½X¿ù»~!½Ğ­«·s¿é¤J±K½X(¿é¤J-1°h¥X):");
+            printf("å¯†ç¢¼éŒ¯èª¤!è«‹é‡æ–°è¼¸å…¥å¯†ç¢¼(è¼¸å…¥-1é€€å‡º):");
             scanf("%d", &code);
         }
     }
-    printf("¤w¸g°h¥Xµ{¦¡\n");
+    printf("å·²ç¶“é€€å‡ºç¨‹å¼\n");
     return 0;
 }

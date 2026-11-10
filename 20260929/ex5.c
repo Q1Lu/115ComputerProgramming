@@ -4,11 +4,11 @@ int main () {
     int bedroom = 5 ;
     int kitchen = 2 ;
     int status = 13 ;
-    printf("¥Ø«e«ÈÆU³]³Æ:%d\n", status & livingroom) ;
-    printf("¥Ø«eª×«Ç³]³Æ:%d\n", status & bedroom) ;
-    printf("¥Ø«e¼p©Ğ³]³Æ:%d\n", status & kitchen) ;
+    printf("ç›®å‰å®¢å»³è¨­å‚™:%d\n", status & livingroom) ;
+    printf("ç›®å‰è‡¥å®¤è¨­å‚™:%d\n", status & bedroom) ;
+    printf("ç›®å‰å»šæˆ¿è¨­å‚™:%d\n", status & kitchen) ;
     kitchen = status ^ kitchen ;
-    printf("¼p©Ğ³]³Æ¤Á´««á:%d\n", kitchen) ;
+    printf("å»šæˆ¿è¨­å‚™åˆ‡æ›å¾Œ:%d\n", kitchen) ;
     return 0 ;
 
 }

@@ -3,10 +3,10 @@ int main() {
     int money = 0,
         sum = 0;
     do{
-        printf("½Ğ¿é¤J´£´Úª÷ÃB(¿é¤J0°h¥X):");
+        printf("è«‹è¼¸å…¥ææ¬¾é‡‘é¡(è¼¸å…¥0é€€å‡º):");
         scanf("%d", &money);
         sum = sum + money;
     }while(money != 0);
-    printf("´£´ÚÁ`ª÷ÃB¬°: %d\n", sum);
+    printf("ææ¬¾ç¸½é‡‘é¡ç‚º: %d\n", sum);
     return 0;
 }

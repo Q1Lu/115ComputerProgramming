@@ -2,10 +2,10 @@
 int main() {
     int age = 0;
 
-    printf("½Ğ¿é¤J¦~ÄÖ: ");
+    printf("è«‹è¼¸å…¥å¹´é½¡: ");
     scanf("%d", &age);
     if (age >= 18) {
-        printf("¦¨¦~¤H\n");
+        printf("æˆå¹´äºº\n");
     }
     return 0;
 }

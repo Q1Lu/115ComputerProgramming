@@ -5,8 +5,8 @@ int main() {
     int library = 1<<1;
     int parking = 1<<2;
     int office = 1<<3;
-    printf("°±¨®³õªºÅv­­:%d\n", parking & card);
-    printf("¾Ç¥Í¦³µL°±¨®³õÅv­­:%d\n", parking & card);
-    printf("¾Ç¥Í¦³µL¦Ñ®v¿ì¤½«ÇÅv­­:%d\n", office & card);
+    printf("åœè»Šå ´çš„æ¬Šé™:%d\n", parking & card);
+    printf("å­¸ç”Ÿæœ‰ç„¡åœè»Šå ´æ¬Šé™:%d\n", parking & card);
+    printf("å­¸ç”Ÿæœ‰ç„¡è€å¸«è¾¦å…¬å®¤æ¬Šé™:%d\n", office & card);
     return 0;
 }

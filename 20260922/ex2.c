@@ -4,7 +4,8 @@ int main () {
     int price = 239;
     int total = price * 5;
 
-    printf(" 商品的單價是:%d\n ", price);
-    printf(" 商品的總價是:%d\n ", total);
+    printf(" 嚙諉品嚙踝蕭嚙踝蕭嚙踝蕭O:%d\n ", price);
+    printf(" 嚙諉品嚙踝蕭嚙窯嚙踝蕭嚙瞌:%d\n ", total);
     return 0;
+    
 }

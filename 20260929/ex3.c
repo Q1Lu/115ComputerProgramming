@@ -6,11 +6,11 @@ int main(){
     float b = 0;
     float c = 0;
 
-    printf("½Ğ¿é¤J¤T¨¤§Îªº©³(cm):\n");
+    printf("è«‹è¼¸å…¥ä¸‰è§’å½¢çš„åº•(cm):\n");
     scanf("%f", &a); 
-    printf("½Ğ¿é¤J¤T¨¤§Îªº°ª(cm):\n");
+    printf("è«‹è¼¸å…¥ä¸‰è§’å½¢çš„é«˜(cm):\n");
     scanf("%f", &b);
     c=(a*b)/2;
-    printf("¤T¨¤§Îªº­±¿n¬O:%.2f\n", c);
+    printf("ä¸‰è§’å½¢çš„é¢ç©æ˜¯:%.2f\n", c);
     return 0;
 }

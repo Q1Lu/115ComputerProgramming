@@ -5,17 +5,17 @@ int main () {
     int attacked = 0;
     int healed = 0;
 
-    printf("½Ğ¿é¤Jªì©l¥Í©R­È:\n");
+    printf("è«‹è¼¸å…¥åˆå§‹ç”Ÿå‘½å€¼:\n");
     scanf("%d", &hp);
-    printf("½Ğ¿é¤J§ğÀ»¶Ë®`:\n");
+    printf("è«‹è¼¸å…¥æ”»æ“Šå‚·å®³:\n");
     scanf("%d", &attacked);
     hp = hp - attacked;
-    printf("½Ğ¿é¤JªvÀø¶q:\n");
+    printf("è«‹è¼¸å…¥æ²»ç™‚é‡:\n");
     scanf("%d", &healed);
     hp = hp + healed;
-    printf("½Ğ¿é¤J§ğÀ»¶Ë®`:\n");
+    printf("è«‹è¼¸å…¥æ”»æ“Šå‚·å®³:\n");
     scanf("%d", &attacked);
     hp = hp - attacked;
 
-    printf("³Ì²×¥Í©R­È:%d\n", hp);
+    printf("æœ€çµ‚ç”Ÿå‘½å€¼:%d\n", hp);
 }

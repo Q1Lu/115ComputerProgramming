@@ -3,18 +3,18 @@ int main() {
     int score = 0;
     int attendance = 0;
 
-    printf("½Ğ¿é¤J¦¨ÁZ(¤À): ");
+    printf("è«‹è¼¸å…¥æˆç¸¾(åˆ†): ");
     scanf("%d", &score);
     if (score >= 60 ) {
-        printf("½Ğ¿é¤J¥X®u²v(%%): ");
+        printf("è«‹è¼¸å…¥å‡ºå¸­ç‡(%%): ");
         scanf("%d", &attendance);  
         if (attendance >= 80) {
-            printf("½Òµ{³q¹L\n");
+            printf("èª²ç¨‹é€šé\n");
         } else {
-            printf("¥X®u²v¤£¨¬¡AµLªk³q¹L½Òµ{\n");
+            printf("å‡ºå¸­ç‡ä¸è¶³ï¼Œç„¡æ³•é€šéèª²ç¨‹\n");
         }
     } else {
-        printf("¦¨ÁZ¤£¤Î®æ\n");
+        printf("æˆç¸¾ä¸åŠæ ¼\n");
     }
     return 0;
 }

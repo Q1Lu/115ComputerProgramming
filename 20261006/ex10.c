@@ -5,23 +5,23 @@ int main() {
         balance  = 0, 
         amount = 0;
 
-    printf("½Ğ¿é¤Jµn¤Jª¬ºA(1:µn¤J, 0:¥¼µn¤J): ");
+    printf("è«‹è¼¸å…¥ç™»å…¥ç‹€æ…‹(1:ç™»å…¥, 0:æœªç™»å…¥): ");
     scanf("%d", &login);
-    printf("½Ğ¿é¤J±b¤á¾lÃB¡G");
+    printf("è«‹è¼¸å…¥å¸³æˆ¶é¤˜é¡ï¼š");
     scanf("%d", &balance);
-    printf("½Ğ¿é¤J´£´Úª÷ÃB¡G");
+    printf("è«‹è¼¸å…¥ææ¬¾é‡‘é¡ï¼š");
     scanf("%d", &amount);
-    printf("½Ğ¿é¤J¶Â¦W³æª¬ºA(1:¬O, 0:§_): ");
+    printf("è«‹è¼¸å…¥é»‘åå–®ç‹€æ…‹(1:æ˜¯, 0:å¦): ");
     scanf("%d", &black);
 
     if (login != 1) {
-        printf("µLªk´£´Ú¡G©|¥¼µn¤J\n");
+        printf("ç„¡æ³•ææ¬¾ï¼šå°šæœªç™»å…¥\n");
     } else if (black == 1) {
-        printf("µLªk´£´Ú¡G¶Â¦W³æ·|­û\n");
+        printf("ç„¡æ³•ææ¬¾ï¼šé»‘åå–®æœƒå“¡\n");
     } else if (balance < amount) {
-        printf("µLªk´£´Ú¡G¾lÃB¤£¨¬\n");
+        printf("ç„¡æ³•ææ¬¾ï¼šé¤˜é¡ä¸è¶³\n");
     } else {
-        printf("¥i¥H´£´Ú\n");
+        printf("å¯ä»¥ææ¬¾\n");
     }   
     return 0;
 }

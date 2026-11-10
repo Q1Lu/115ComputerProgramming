@@ -2,29 +2,29 @@
 int main (){
     int options = 0;
 
-    printf("½Ğ¿ï¾Ü¶¼®Æ: \n"
-            "1.¬õ¯ù30¤¸  \n"
-            "2.ºñ¯ù35¤¸  \n"
-            "3.¥¤¯ù50¤¸  \n"
-            "4.ªG¥Ä45¤¸  \n");
+    printf("è«‹é¸æ“‡é£²æ–™: \n"
+            "1.ç´…èŒ¶30å…ƒ  \n"
+            "2.ç¶ èŒ¶35å…ƒ  \n"
+            "3.å¥¶èŒ¶50å…ƒ  \n"
+            "4.æœæ±45å…ƒ  \n");
 
-    printf("½Ğ¿é¤J¿ï¶µ: ");
+    printf("è«‹è¼¸å…¥é¸é …: ");
     scanf("%d", &options);
     switch (options) {
         case 1:
-            printf("¬õ¯ù30¤¸\n");
+            printf("ç´…èŒ¶30å…ƒ\n");
             break;
         case 2:
-            printf("ºñ¯ù35¤¸\n");
+            printf("ç¶ èŒ¶35å…ƒ\n");
             break;
         case 3:
-            printf("¥¤¯ù50¤¸\n");
+            printf("å¥¶èŒ¶50å…ƒ\n");
             break;
         case 4:
-            printf("ªG¥Ä45¤¸\n");
+            printf("æœæ±45å…ƒ\n");
             break;
         default:
-            printf("µL¦¹¶¼®Æ¿ï¶µ\n");
+            printf("ç„¡æ­¤é£²æ–™é¸é …\n");
             break;
     }
     return 0;

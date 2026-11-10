@@ -2,13 +2,13 @@
 int main(){
     for (int i = 1; i <= 10 ; i++){
         if (i == 4){
-            printf("Ä_½c%d¬OªÅªº,¸õ¹L\n",i);
+            printf("å¯¶ç®±%dæ˜¯ç©ºçš„,è·³éŽ\n",i);
             continue;
         }else if(i == 8){
-            printf("§ä¨ì¯«¯µÄ_ÂÃ!¦ì©óÄ_ÂÃ%d\n",i);
+            printf("æ‰¾åˆ°ç¥žç§˜å¯¶è—!ä½æ–¼å¯¶è—%d\n",i);
             break;
         }else{
-            printf("¶}±ÒÄ_½c%d\n",i);
+            printf("é–‹å•Ÿå¯¶ç®±%d\n",i);
         }
         
     }
