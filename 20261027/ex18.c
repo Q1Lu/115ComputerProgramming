@@ -14,7 +14,7 @@ int main (){
     printf("請輸入行駛里程數:");
     scanf("%d",&km);
     fare = taxi(km);
-    printf("車資:",fare);
+    printf("車資:%d",fare);
     
     return 0;
 }
